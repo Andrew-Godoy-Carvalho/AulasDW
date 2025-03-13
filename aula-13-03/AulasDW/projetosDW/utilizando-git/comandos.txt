@@ -1,0 +1,38 @@
+-> Configura o pc com nome e e-mail do responsável pelo código
+git config --global user.name "Gabriel Alexandre Ribeiro"
+git config --global user.email gabriel.ribeiro74@gmail.com
+
+-> navengando no cmd
+cd nome-da-pasta // entra na pasta
+cd ..            // volta uma pasta
+cd /             // vai para cd:
+
+-> Inicializa um repositório git (Utilizado apenas 1 vez)
+git init
+
+-> Verificar o status do repositório
+git status
+
+-> Adicionar os novos arquivos no git para versionar
+git add ,
+
+-> Salva uma versão dos arquivos
+git commit -m "Porque estou salvando???"
+
+-> Git Push adiciona informação do computador para nuvem (primeiro push a partir do site do git)
+git push
+
+-> Baixa a atualização dos arquivos do github para uma pasta já existente
+git pull
+
+-> Baixa a atualização dos arquivos do Github para uma pasta já existente (link na frente)
+git clone 
+
+-> Sincroniza sem alterar a pasta local verificando mudança no github
+git fetch
+
+-> Abrir VScode
+code .
+
+-> Mais comandos em: https://training.github.com/downloads/pt_BR/github-git-cheat-sheet/
+
