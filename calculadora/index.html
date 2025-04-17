@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+        
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Calculadora</title>
+    </head>
+    <body>
+        <div class="area">
+            <h1>Calculadora</h1>
+
+        
+            <table>
+                <tbody>
+                    <tr>
+                        <td colspan="4" class="calc" id="calc">2+2</td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="4" class="result" id="result">4</td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="3"> <button type="button" id="clean" class="btn clean">C</button></td>
+                        <td colspan="3"><button type="button" id="division" class="btn operations">/</button></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><button type="button" id="n7" class="btn numbers">7</button></td>
+                        <td><button type="button" id="n8" class="btn numbers">8</button></td>
+                        <td><button type="button" id="n9" class="btn numbers">9</button></td>
+                        <td><button type="button" id="multi" class="btn operations">*</button></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><button type="button" id="n4" class="btn numbers">4</button></td>
+                        <td><button type="button" id="n5" class="btn numbers">5</button></td>
+                        <td><button type="button" id="n6" class="btn numbers">6</button></td>
+                        <td><button type="button" id="sub" class="btn operations">-</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><button type="button" id="n1" class="btn numbers">1</button></td>
+                        <td><button type="button" id="n2" class="btn numbers">2</button></td>
+                        <td><button type="button" id="n3" class="btn numbers">3</button></td>
+                        <td><button type="button" id="add" class="btn operations">+</button></td>
+                    </tr>
+
+                    <tr>
+                        <td><button type="button" id="n0" class="btn numbers">0</button></td>
+                        <td colspan="3"><button type="button" id="ig" class="btn ig">=</button></td>
+                    </tr>
+                </tbody>
+            </table>
+                   
+        </div>
+
+        <form action="#">
+            <input type="number" name="num1" placeholder="Digite o primeiro número" id="num1">
+            <input type="number" name="num2" placeholder="Digite o segundo número" id="num2">
+            <button type="button" id="somar" class="btn operations">+</button>
+            <button type="button" id="sub" class="btn operations">-</button>
+            <button type="button" id="div" class="btn operations">/</button>
+            <button type="button" id="mult" class="btn operations">*</button>
+            <h3 id="result2">Resultado: </h3>
+        </form>
+
+
+        <script src="js/script.js"> </script>
+    </body>
+
+</html>
